@@ -1,0 +1,43 @@
+.hero {
+   background: url("./images/tesla.jpg") center/cover;
+}
+@media(max-width:1024px) {
+.hero {
+    background: url("./images/t1_edited.jpg")center/cover;
+      }
+    }
+
+@media(max-width:768px) {
+  .hero {
+    background: url("./images/t1_edited2.jpg")center/cover;
+        }
+      }
+
+      .center, .center-column, .top, .right, .bottom, .left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .top{
+        align-items: flex-start;
+      }
+      .right{
+        justify-content: flex-end;
+      }
+      .bottom{
+         align-items: flex-end;
+      }
+      .left{
+         justify-content: flex-start;
+      }
+
+      .single-spaced, .single-spaced *{
+line-height: 1;
+      }
+
+    @media(max-width:1024px){
+      .desktop{
+        display:none;
+      }
+    }
