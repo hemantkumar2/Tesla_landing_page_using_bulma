@@ -9,6 +9,7 @@
   grid-template-areas: 
   "a a a a"
   "b c d e";
+  grid-row-gap: 1rem;
 }
 @media(max-width:512px){
   #grid{
