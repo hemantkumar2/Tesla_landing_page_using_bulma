@@ -33,7 +33,7 @@
       }
 
       .single-spaced, .single-spaced *{
-line-height: 1;
+          line-height: 1;
       }
 
     @media(max-width:1024px){
